@@ -7,4 +7,8 @@ int main() {
     int b = 3;
 
    cout<<a%b<<endl;
+
+   int q = a/b;
+   int r = a - b * q;
+   cout<<r<<endl;
 }
