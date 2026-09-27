@@ -15,4 +15,7 @@ int main() {
 
     bool z = -2;
     cout<<z<<endl;
+
+    cout<<(5>3)<<endl;
+    cout<<(5<3);
 }
