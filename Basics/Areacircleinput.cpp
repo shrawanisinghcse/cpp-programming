@@ -9,6 +9,5 @@ int main() {
     float pi = 3.14159;
     float area = pi*x*x;
 
-    cout<<"Area of a circle is ";
-    cout<<area;
+    cout<<"Area of a circle is "<<area;
 }
