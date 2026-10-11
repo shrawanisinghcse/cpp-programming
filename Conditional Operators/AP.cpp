@@ -9,6 +9,8 @@ int main() {
     cin>>n;
 
     for(int i = 0;i <= n-1; i++) {
-        cout<<1+i*2<<endl;
+        //nth term = a + (n-1)d
+        //d = 2; a = 1; n = n;
+        cout<<1+i*2<<endl;        
     }
 }
