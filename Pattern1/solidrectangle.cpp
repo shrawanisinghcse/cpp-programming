@@ -12,7 +12,7 @@ int main() {
 
     for(int i = 1; i <= row; i++) {
         for(int i = 1; i<= column; i++) {
-            cout<<'*';
+            cout<<'*'<<" ";
         }
         cout<<endl;
     }
