@@ -15,8 +15,12 @@ void greeting() {
 }
 
 int main() {
+    int x;
+    cout<<"No of rows : ";
+    cin>>x; 
+
    // function calling
     
-    starTriangle(7);
+    starTriangle(x);
     greeting();
 }
