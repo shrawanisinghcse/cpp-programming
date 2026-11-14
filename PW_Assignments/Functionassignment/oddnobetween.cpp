@@ -2,7 +2,7 @@
 #include<iostream>
 using namespace std;
 
-int odd(int a, int b) {
+void odd(int a, int b) {
   if(a>b) {
     if(b%2 != 0) {
     for(int i = b;i <= a;i+= 2) {
